@@ -3,11 +3,9 @@
 > Code open-source permettant de créer un Captcha dans **son serveur** !
 
 
-## Installation :
+## Obtention du Code :
 
 > **Merci de laisser une ⭐ au projet !**
-
-**__Obtention du code :__**
 
 ### Via GIT :
 *   Dans votre terminal, entrez ceci : 
@@ -28,7 +26,7 @@
 
 > Si le problème persiste, merci **d'abord** de rechercher une solution sur Internet, le cas échéant, **ouvrir une issue** !
 
-**__Installation :__**
+## Installation sur votre machine
 
 ### Récupération de la police utilisée sur le Captcha :
 *   Rendez vous sur [ce site](https://www.dafont.com/fr/karmatic-arcade.font) !

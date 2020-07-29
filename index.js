@@ -131,7 +131,7 @@ client.on("message", async (message) => {
                     }
                 })
                 .catch((collected) => {
-                    message.channel.send(`${settings.embed_false} ┊ Le temps **est écoulé** !`).then((m) => m.delete({ timeout: 4700 })) // Si le membre n'envoie pas le code dans le temps donné (ici, 30 secondes), alors le BOT envoie ce message, puis le supprime
+                    message.channel.send(`${settings.emoji_false} ┊ Le temps **est écoulé** !`).then((m) => m.delete({ timeout: 4700 })) // Si le membre n'envoie pas le code dans le temps donné (ici, 30 secondes), alors le BOT envoie ce message, puis le supprime
                     
                     // Création de l'embed :
                     let embed_false = new MessageEmbed()

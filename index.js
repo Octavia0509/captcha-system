@@ -19,7 +19,7 @@ client.on("ready", () => {
 })
 
 client.on("guildMemberAdd", async (member) => {
-    if(!member.bot) {
+    if(member.bot) {
         return null; // Permet de ne rien renvoyer si le member est un BOT
     } else {
         member.channels.cache.get(settings.channel_verification).send(`${member}, merci de passer la vérification en envoyant \`${settings.prefix}verify\` ci-dessous ! Ensuite, suivez les étapes affichées !`)

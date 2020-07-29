@@ -6,6 +6,8 @@
 ## Obtention du Code :
 
 > **Merci de laisser une ⭐ au projet !**
+> __Version de NODE.JS utilisée :__ **12.16.3**
+> Si vous n'avez pas installé NODE.JS, cliquez [ici](https://nodejs.org/en/download/) et choisissez votre OS, ensuite installez le logiciel sur votre machine !
 
 ### Via GIT :
 *   Dans votre terminal, entrez ceci : `git clone https://github.com/Octavia0509/captcha-system.git`
@@ -38,8 +40,11 @@
 *   Ouvrez le fichier `index.js`
 *   Dans les premières lignes, vous pouvez aperçevoir `const settings`, remplissez les champs vides par vos valeurs (**tout est expliqué**)
 
-> **Si vous avez bien suivi toutes ses étapes, le BOT devrait se lancer !**
-*   Vous pouvez donc éxécuter la commande `{prefix}verify` sur votre seveur (`{prefix}` étant remplacé par votre prefix)
+### Lancement :
+*   Toujours dans un terminal, entrez la commande, soit `npm start`, soit `node index.js`
+
+
+> Vous pouvez donc éxécuter la commande `{prefix}verify` sur votre serveur dans le channel de vérification mis dans les "settings" (`{prefix}` étant remplacé par votre prefix)
 
 Vous êtes libres d'ouvrir une issue, ou de faire une PR si vous souhaitez ajouter ou modifier du code existant !
 

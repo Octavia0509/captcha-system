@@ -8,10 +8,7 @@
 > **Merci de laisser une ⭐ au projet !**
 
 ### Via GIT :
-*   Dans votre terminal, entrez ceci : 
-    ```bash
-    git clone https://github.com/Octavia0509/captcha-system.git
-    ```
+*   Dans votre terminal, entrez ceci : `git clone https://github.com/Octavia0509/captcha-system.git`
 *   Ensuite, entrez `cd captcha-system`
 *   Puis `npm install`
 

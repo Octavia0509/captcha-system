@@ -8,7 +8,7 @@
 > **Merci de laisser une ⭐ au projet !**
 
 __Version de NODE.JS utilisée :__ **12.16.3**
-Si vous n'avez pas installé NODE.JS, cliquez [ici](https://nodejs.org/en/download/) et choisissez votre OS, ensuite installez le logiciel sur votre machine !
+> Si vous n'avez pas installé NODE.JS, cliquez [ici](https://nodejs.org/en/download/) et choisissez votre OS, ensuite installez le logiciel sur votre machine !
 
 ### Via GIT :
 *   Dans votre terminal, entrez ceci : `git clone https://github.com/Octavia0509/captcha-system.git`

@@ -19,10 +19,8 @@ client.on("ready", () => {
 })
 
 client.on("guildMemberAdd", async (member) => {
-    if(member.bot) {
-        return null; // Permet de ne rien renvoyer si le member est un BOT
-    } else {
-        member.channels.cache.get(settings.channel_verification).send(`${member}, merci de passer la vérification en envoyant \`${settings.prefix}verify\` ci-dessous ! Ensuite, suivez les étapes affichées !`)
+    if(!member.user.bot) {
+        member.guild.channels.cache.get(settings.channel_verification).send(`${member}, merci de passer la vérification en envoyant \`${settings.prefix}verify\` ci-dessous ! Ensuite, suivez les étapes affichées !`)
     }
     /*
         Ce rapide code permet d'envoyer dans le channel demandé le message ci-dessus afin de lui demandé de se vérifier ! 
@@ -50,7 +48,7 @@ client.on("message", async (message) => {
             const canvas = createCanvas(700, 250); // Instanciation du Canvas
             const ctx = canvas.getContext('2d');
     
-            const background = await loadImage("https://lh3.googleusercontent.com/proxy/ry8FVAeB_hnEPPa05Jmh3lAOPeB2vH79a-Q-zxwajfs_HPGoK4trapo0IsKT3JTIFmSBgSW_B_eE-hRPJIir4Scm1ePcLtgz2TnRnmVo8Xza"); // Récupération du fond pour le captcha (arrière-plan)
+            const background = await loadImage("https://une-image.com"); // Récupération du fond pour le captcha (arrière-plan)
             ctx.drawImage(background, 0, 0, canvas.width, canvas.height); // On ajoute l'arrière plan au canvas
     
             ctx.font = '60px Karmatic Arcade'; // Ceci permet de récupérer la police (voir le README pour voir comment l'obtenir)
